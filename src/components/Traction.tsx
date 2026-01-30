@@ -131,52 +131,6 @@ export default function Traction() {
           ))}
         </div>
 
-        {/* Testimonial */}
-        <AnimatedSection delay={0.5}>
-          <div className="glass-card p-10 md:p-14 max-w-3xl mx-auto text-center relative overflow-hidden">
-            <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[#6366f1]/50 to-transparent" />
-            <svg
-              width="48"
-              height="48"
-              viewBox="0 0 24 24"
-              fill="none"
-              className="mx-auto mb-6 text-[#6366f1]/30"
-            >
-              <path
-                d="M10 11H6a1 1 0 01-1-1V7a1 1 0 011-1h3a1 1 0 011 1v7c0 2.21-1.79 4-4 4"
-                stroke="currentColor"
-                strokeWidth="1.5"
-                strokeLinecap="round"
-              />
-              <path
-                d="M20 11h-4a1 1 0 01-1-1V7a1 1 0 011-1h3a1 1 0 011 1v7c0 2.21-1.79 4-4 4"
-                stroke="currentColor"
-                strokeWidth="1.5"
-                strokeLinecap="round"
-              />
-            </svg>
-            <blockquote className="text-xl sm:text-2xl text-white/80 leading-relaxed mb-8 font-light">
-              Open Substrate gave us the flexibility we couldn&apos;t get from legacy
-              vendors. We prototyped a new product in{" "}
-              <span className="font-semibold text-white">days</span>, not
-              months.
-            </blockquote>
-            <div className="flex items-center justify-center gap-3">
-              <div className="w-10 h-10 rounded-full bg-gradient-to-br from-[#6366f1] to-[#8b5cf6] flex items-center justify-center text-white text-sm font-bold">
-                RC
-              </div>
-              <div className="text-left">
-                <div className="text-sm font-medium text-white">
-                  Beta Partner
-                </div>
-                <div className="text-xs text-white/40">
-                  Regional Bank CTO
-                </div>
-              </div>
-            </div>
-          </div>
-        </AnimatedSection>
-
         {/* Developer momentum */}
         <AnimatedSection delay={0.6}>
           <div className="mt-12 text-center">
