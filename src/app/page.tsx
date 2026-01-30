@@ -5,6 +5,7 @@ import MarketOpportunity from "@/components/MarketOpportunity";
 import Vision from "@/components/Vision";
 import TechStack from "@/components/TechStack";
 import Features from "@/components/Features";
+import WhitePaper from "@/components/WhitePaper";
 import Comparison from "@/components/Comparison";
 import Traction from "@/components/Traction";
 import CTA from "@/components/CTA";
@@ -26,6 +27,8 @@ export default function Home() {
         <TechStack />
         <div className="line-glow max-w-2xl mx-auto" />
         <Features />
+        <div className="line-glow max-w-2xl mx-auto" />
+        <WhitePaper />
         <div className="line-glow max-w-2xl mx-auto" />
         <Comparison />
         <div className="line-glow max-w-2xl mx-auto" />

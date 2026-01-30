@@ -72,10 +72,25 @@ export default function Hero() {
             </span>
           </a>
           <a
-            href="#vision"
-            className="px-8 py-3.5 text-sm font-medium text-white/70 hover:text-white border border-white/10 hover:border-white/20 rounded-full transition-all duration-300 hover:bg-white/[0.03]"
+            href="/deterministic_architectures.pdf"
+            download
+            className="inline-flex items-center gap-2 px-8 py-3.5 text-sm font-medium text-white/70 hover:text-white border border-white/10 hover:border-white/20 rounded-full transition-all duration-300 hover:bg-white/[0.03]"
           >
-            See How It Works
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4" />
+              <polyline points="7 10 12 15 17 10" />
+              <line x1="12" y1="15" x2="12" y2="3" />
+            </svg>
+            Read White Paper
           </a>
         </motion.div>
 
