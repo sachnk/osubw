@@ -25,6 +25,3 @@ npm run build
 npm start
 ```
 
-## Deploy
-
-Push to GitHub and connect the repo in [Vercel](https://vercel.com). Zero config required for Next.js projects.
