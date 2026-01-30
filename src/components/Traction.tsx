@@ -84,10 +84,10 @@ const metrics = [
     ring: 99,
   },
   {
-    value: "2",
-    label: "Active Pilots",
-    description: "Regional bank and fintech design partners",
-    ring: 40,
+    value: "1",
+    label: "Active Pilot",
+    description: "Regional bank design partner",
+    ring: 20,
   },
 ];
 
